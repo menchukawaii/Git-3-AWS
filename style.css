@@ -1,0 +1,41 @@
+body {
+    display: grid;
+    place-content: center;
+    height: 96vh; 
+    
+}
+
+input, button{
+    display: block;
+    margin: 10px 0;
+}
+
+ul{
+    margin-top: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+/* div{
+    display: inline-block;
+}
+img{
+    width: 100px;
+} */
+
+table{
+    min-width: 400px;
+}
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    /* font-size: 1.2em; */
+}
+td,th{
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+th{
+    background-color: deepskyblue;
+}
